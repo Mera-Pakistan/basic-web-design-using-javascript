@@ -1,0 +1,13 @@
+
+.home-content .content-heading{
+
+    margin-bottom: var(--content-heading-mb) !important;
+}
+
+
+.home-content .content-paras{
+
+    margin-bottom: var(--content-paragraph-mb) !important;
+
+    text-align: var(--content-paragraph-ta);
+}

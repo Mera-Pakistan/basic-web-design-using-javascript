@@ -1,0 +1,40 @@
+
+.sidebar{
+
+    list-style: var(--list-style-nav);
+
+    padding: 0 30px;
+
+}
+
+.page-items{
+
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+.page-items .page-links{
+
+    text-decoration: var(--nav-link-decor);
+
+    font-size: var(--font-ui-section);
+
+    color: var(--color-text);
+
+    text-transform: var(--nav-text-transform);
+    
+    display: var(--nav-link-display);
+
+    padding: var(--padding-nav);
+
+    transition: 0.4s all ease-in-out;
+}
+
+
+.page-items .page-links:hover{
+
+    background-color: var(--color-secondary);
+
+    border-radius: 7px;
+}

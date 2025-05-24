@@ -1,0 +1,42 @@
+
+.Navbar{
+
+    list-style: var(--list-style-nav);
+
+    display: flex;
+
+    padding: 0;
+}
+
+
+.nav-items{
+
+    padding-right: 30px;
+}
+
+
+.nav-items .nav-links{
+
+    text-decoration: var(--nav-link-decor);
+
+    font-size: var(--font-ui-section);
+
+    color: var(--color-text);
+
+    text-transform: var(--nav-text-transform);
+    
+    display: var(--nav-link-display);
+
+    padding: var(--padding-nav);
+
+    transition: 0.5s all ease-out;
+
+}
+
+
+.nav-items .nav-links:hover{
+
+    background: var(--color-primary);
+
+    color: var(--color-section);
+}

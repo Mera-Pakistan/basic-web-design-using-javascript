@@ -1,0 +1,105 @@
+
+*{
+
+    margin: 0 !important;
+
+}
+
+
+
+:root{
+
+    --color-primary: crimson;
+
+    --color-secondary: salmon;
+
+    --font-ui-section: 18.5px;
+
+    --padding-ui-section: 20px 0;
+
+    --padding-nav: 8px 12px;
+
+    --list-style-nav: none;
+
+    --nav-link-decor: none;
+
+    --nav-text-transform: capitalize;
+
+    --nav-link-display: block;
+
+    --nav-footer-padding: 10px 0;
+
+    --color-text: #000;
+
+    --color-section: #fff;
+
+    --content-height: 100%;
+
+    --content-vertical-alignment: center;
+
+    --content-heading-mb: 15px;
+
+    --content-paragraph-mb: 20px;
+
+    --content-paragraph-ta: justify;
+}
+
+
+#header-section{
+
+    background: var(--color-primary);
+
+    padding: var(--padding-ui-section);
+
+    color: white;
+}
+
+#header-section h1{
+
+    font-size: 36px;
+
+    font-weight: bold;
+}
+
+
+#navbar-section{
+
+    background: var(--color-secondary);
+
+    padding: var(--nav-footer-padding);
+}
+
+
+#main-section{
+
+    align-content: var(--content-vertical-alignment);
+
+    height: var(--content-height);
+
+    padding: 40px 0;
+}
+
+
+#sidebar-section{
+
+    background: skyblue;
+
+    padding: var(--padding-ui-section);
+    
+    height: var(--content-height);
+
+    align-content: var(--content-vertical-alignment);
+}
+
+
+#footer-section{
+
+    background: var(--color-secondary);
+
+    padding:  var(--nav-footer-padding);
+
+    font-size: var(--font-ui-section);
+
+    text-align: right;
+}
+
